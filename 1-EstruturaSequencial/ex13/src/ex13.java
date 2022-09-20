@@ -16,7 +16,7 @@ public class ex13 {
             System.out.println("Qual seu sexo:");
             System.out.print("Digite 1 para Masculino, 2 para Feminino: ");
             int sexo = t.nextInt();
-
+            
             switch(sexo){
                 case 1:{
                     pesoIdeal = (72.7*height) - 58;

@@ -43,5 +43,6 @@ public class ex17 {
         System.out.println("\nComprar apenas galões: (3,6L)");
         System.out.printf("Quantidade de galões: %.0f \nPreço total R$ %.2f", qtdGalao, precoTotalGalao);
         
+        
     }  
 }

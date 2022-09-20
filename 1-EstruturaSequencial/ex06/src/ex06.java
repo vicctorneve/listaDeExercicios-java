@@ -5,8 +5,8 @@ public class ex06 {
         try(Scanner t = new Scanner(System.in)){
             System.out.print("Digite o raio do circulo: ");
             double raio = t.nextDouble();
-            double areaCircle = 3.14*(raio*raio);
-            System.out.print("A area do circulo é 5" + areaCircle);
+            double areaCircle = Math.PI*Math.pow(raio, 2);
+            System.out.printf("A area do circulo é %.2f", areaCircle);
         }
         
     }

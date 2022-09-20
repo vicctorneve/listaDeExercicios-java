@@ -5,7 +5,7 @@ public class ex05{
       try(Scanner t = new Scanner(System.in)){
          System.out.print("digite um valor em metros: ");
          float metros = t.nextFloat();
-         double centimetros = metros/0.01000;
+         double centimetros = metros*100;
          System.out.print(metros + "m = " + centimetros + "cm");
       }
    }
