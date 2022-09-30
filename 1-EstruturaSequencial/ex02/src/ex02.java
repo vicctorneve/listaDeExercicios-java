@@ -4,7 +4,7 @@ public class ex02 {
       try(Scanner t = new Scanner(System.in)) {
          System.out.print("Digite um número: ");
          int num = t.nextInt();
-         System.out.print("O número digitado foi: " + num);
+         System.out.print("O número digitado foi " + num);
       }
       
    }
