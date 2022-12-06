@@ -20,7 +20,7 @@ public class ex12 {
         Collections.shuffle(strList);
         
         for(String letter : strList){
-            palavraEmbaralhada += letter;
+            palavraEmbaralhada += letter.toUpperCase();
         }
         
         System.out.println(palavraEmbaralhada);
