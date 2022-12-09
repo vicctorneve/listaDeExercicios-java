@@ -5,7 +5,7 @@ public class ex05 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o valor do produto: R$ ");
         double precoProduto = sc.nextDouble();
-        System.out.print("Digite o imposta da venda: ");
+        System.out.print("Digite o imposta da venda: [Em porcentagem] ");
         double imposto = sc.nextDouble();
         sc.close();
         double precoTotal = somaImposto(imposto, precoProduto);

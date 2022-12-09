@@ -1,11 +1,9 @@
-import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class CalculadoraDeQuadradoMagico {
 
     public static void main(String[] args) {
 
-        long inicio = LocalTime.now().toNanoOfDay();
         ArrayList<Integer> quadrado = GeradorDeQuadradoAleatorio.gerarQuadrado();
 
         int x1 = GeradorDeQuadradoAleatorio.pegarNumeroAleatorio(quadrado),
@@ -38,8 +36,6 @@ public class CalculadoraDeQuadradoMagico {
             x9 = GeradorDeQuadradoAleatorio.pegarNumeroAleatorio(quadrado);
         }
 
-        long fim = LocalTime.now().toNanoOfDay();
-
         System.out.println(x1 + " - " + x2 + " - " + x3);
         System.out.println(x4 + " - " + x5 + " - " + x6);
         System.out.println(x7 + " - " + x8 + " - " + x9);
@@ -47,8 +43,5 @@ public class CalculadoraDeQuadradoMagico {
         System.out.println("------------------------------");
         System.out.println("Quantidade de Tentativas: " + contador);
         System.out.println("------------------------------");
-        System.out.println("Nanosegundos: " + (fim - inicio));
-        System.out.println("------------------------------");
-        System.out.println("Segundos: " + ((fim - inicio) / 1000000000F));
     }
 }

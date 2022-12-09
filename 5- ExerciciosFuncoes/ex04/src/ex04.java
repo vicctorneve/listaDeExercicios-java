@@ -10,12 +10,10 @@ public class ex04 {
     }
     
     public static String positivoOuNegativo(int x){
-        String resp;
-        if(x <= 0){
-            resp = "N";
+        if(x > 0){
+            return "P";
         }else{
-            resp = "P";
+            return "N";
         }
-        return resp;
     }
 }

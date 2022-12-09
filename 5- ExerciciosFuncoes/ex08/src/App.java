@@ -6,11 +6,12 @@ public class App {
         System.out.print("Digite um número inteiro: ");
         int number = sc.nextInt();
         sc.close();
-        System.out.println("O numero " + number + " possui " + qtdDigitos(number) + " digitos");
+        qtdDigitos(number);
+        
     }
-    public static int qtdDigitos(int x) {
+    public static void qtdDigitos(int x) {
         String digitos = Integer.toString(x);
-        return digitos.length();
+        System.out.print("O numero " + x + " possui " + digitos.length() + " digitos");
     }
 }
 

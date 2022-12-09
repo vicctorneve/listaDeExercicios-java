@@ -16,8 +16,5 @@ public class ex09 {
             reverseNumber += str.charAt(i);
         }
         return reverseNumber;
-        
-        
-        
     }
 }
